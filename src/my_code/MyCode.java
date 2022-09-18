@@ -1,7 +1,7 @@
 import java.util.HashMap;
 package my_code;
 
-public class Tets {
+public class MyCode {
 	
 	
 	public static void main(String[] args) {
