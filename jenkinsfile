@@ -1,0 +1,8 @@
+@Library('PipelineLibrary@latestRelease') _
+node{
+    env.maven_collectFilesWithExtensions="zip";
+    env.fortify_runScan=false;
+    env.sonar_runScan=false;    
+    gosiPipeline.executeGit();
+}
+

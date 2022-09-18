@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<oimplugins>
+
+<plugins pluginpoint="oracle.iam.scheduler.vo.TaskSupport">
+
+<plugin pluginclass="sa.gosi.oim.ameen.schedulejobs.usersync.AmeenScheduler" version="1.0.2" name="AmeenScheduler">
+
+</plugin>
+
+</plugins>
+
+</oimplugins>

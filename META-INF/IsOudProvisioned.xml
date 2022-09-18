@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+
+<scheduledTasks xmlns="http://xmlns.oracle.com/oim/scheduler">
+
+   <task>
+
+      <name>AmeenScheduler</name>
+
+      <class>sa.gosi.oim.ameen.schedulejobs.usersync.AmeenScheduler</class>
+
+      <description>AmeenScheduler</description>
+
+      <retry>5</retry>
+
+      <parameters>
+
+	  <string-param required="true" helpText="LDAP ITResource">OUD IT Resource Name</string-param>
+
+	  <string-param required="true" helpText="AMEEN ITResource">AMEEN IT Resource Name</string-param>
+
+	  <string-param required="true" helpText="Object Name">Resource Object</string-param>
+
+	  <string-param required="true" helpText="OUD Role">Group Name</string-param>
+
+	  <string-param required="true" helpText="OUD Container">Organization Unit</string-param>
+
+	  <string-param required="true" helpText="JOB Name">Schedule Job Name</string-param>
+
+	  <string-param required="true" helpText="TimeStamp">Last Execution TimeStamp</string-param>
+
+	  <string-param required="true" helpText="AMEEN ITResourceKey">AMEEN ITResource Key</string-param>	
+
+	  </parameters>
+
+   </task>
+
+   </scheduledTasks>
